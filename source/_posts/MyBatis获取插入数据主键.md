@@ -30,7 +30,7 @@ Student student = new Student("张三","1","3")//初始化student的name，class
 Long id = studentDao.insert(student);   //获取插入ID
 ```
 
-
+<!-- more -->
 
 ## Mybatis 获取主键方式
 DAO接口方法声明
