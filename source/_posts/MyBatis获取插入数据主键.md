@@ -40,11 +40,11 @@ int insert(Student student);
 ```
 Mapper文件配置
 ```xml
-<insert id="insert" parameterClass="Student">
+<insert id="insert" parameterType="Student">
         insert into student
           (name, class, grade)
         values
-          (#name#, #class#, #grade#);
+          (#{name}, #{class}, #{grade});
 </insert>
 ```
 
